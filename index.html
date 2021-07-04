@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+
+<head>
+    <title>Sudoku</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="mp3" src="mp3/duck.mp3"></audio>
+    <audio id="nhacnen" src="mp3/nhacnen.mp3" autoplay></audio>
+   <button id="about" onclick="about()">Luật Chơi</button>
+    <div id="mess">
+        <h1 id="userwin"></h1>
+        <br>
+        <button id="playagain">CHƠI LẠI</button>
+    </div>
+    <div class="game" id="game"  onmousedown='return false;' onselectstart='return false;'>
+        <h1 id="score"></h1>
+    </div>
+   <div id="inp" onmousedown='return false;' onselectstart='return false;'></div>
+    <script src="js.js"></script>
+</body>
+
+</html>
