@@ -127,7 +127,7 @@ function checkbtn(len) { // check cac o
     var x = randomso(0,9).toString();
     var y = randomso(0,9).toString();
     var soluong = 0;
-    var max = randomso(20,30);
+    var max = randomso(10,15);
     //
     while(soluong<=max){
         var test = 1;
